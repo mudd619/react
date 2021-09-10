@@ -1,0 +1,86 @@
+[
+    {
+        "name":"URU Brewpark",
+        "payment": {
+            "Cash": "true",
+            "Card":"true",
+            "Online":"true"
+        },
+        "votes": 244,
+        "reviews":432,
+        "costOne":199,
+        "categories" : "Continental ,Chinese ,Arabian",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7smrOWSjmwxLDxRaflZUyJEwelqC6ekdK1g&usqp=CAU",
+        "id":3,
+        "rating":3.2
+    },
+    {
+        "name":"Arabian Treat",
+        "payment": {
+            "Cash": "true",
+            "Card":"true",
+            "Online":"true"
+        },
+        "votes":349,
+        "reviews":389,
+        "costOne":99,
+        "categories" : "Arabian, Chinese",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRtacFlv0IFapSN5wN0AyK_6W6H_Br-tP0Sw&usqp=CAU",
+        "id":1,
+        "rating":3.9
+    },
+    {
+        "name":"Drnk Lab",
+        "payment": {
+            "Cash": "true",
+            "Card":"true",
+            "Online":"true"
+        },
+        "votes":523,
+        "reviews":768,
+        "costOne":149,
+        "categories" : "Continenetal, Chinese, Burgers",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrQaHwBlacbEp4myejyAllCdYyb7739vppTw&usqp=CAU",
+        "id":2,
+        "rating":4.5
+    },
+    {
+        "name":"Juice Magic",
+        "payment": {
+            "Cash": "true"
+        },
+        "votes":678,
+        "reviews":898,
+        "costOne":189,
+        "categories" : "Arabian",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFLqi19AJE_Ebtx8VjFHXtYVMBwTc5o9pRMw&usqp=CAU",
+        "id":4,
+        "rating":4.5
+    },
+    {
+        "name":"New York Chicken",
+        "payment": {
+            "Card": "true"
+        },
+        "votes":67,
+        "reviews":98,
+        "costOne":299,
+        "categories" : "American",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvstQOr8Y20vNaRDiF_W0oqq0T7arwoB_51Q&usqp=CAU",
+        "id":5,
+        "rating":2.7
+    },
+    {
+        "name":"Dominos",
+        "payment": {
+            "Online": "true"
+        },
+        "votes":567,
+        "reviews":678,
+        "costOne":399,
+        "categories" : "Pizzas",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUKoDBI5IaVd2BMWhBNhUvFFkFIIOVUW8glw&usqp=CAU",
+        "id":6,
+        "rating":3.6
+    }
+]
