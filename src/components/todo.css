@@ -1,0 +1,61 @@
+.btn{
+    width: 6%;
+    height: 1.6vw;
+    margin-right: 1%;
+    background-color: white;
+    border: 1px solid rgb(172, 170, 170);
+    border-radius: 5px;
+    font-size: 1vw;
+}
+
+.dec{
+    text-decoration: line-through;
+}
+
+.btn2{
+    margin-right: 3%;
+    border: none;
+    background-color: rgb(145, 168, 145);
+    font-size: 2vw;
+    padding: 1%;
+}
+
+.inp{
+    border: none;
+    background-color: rgb(145, 168, 145);
+    font-size: 1.5vw;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.one{
+    margin-top: 2%;
+    padding-left: 1%;
+    background-color: rgb(145, 168, 145);
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+.res{
+    margin-bottom: 2%;
+    padding :2%;
+    background-color: white;
+    border-radius: 5px;
+    height: 2.2vw;
+}
+
+.butn3{
+    width: 40%;
+    height: 2vw;
+    font-size: 1.5vw;
+    color: rgb(75, 73, 73);
+    margin: 7% 0% 3% 0%;
+    background-color: rgb(145, 168, 145);
+    border-radius: 5px;
+    border: none;
+    font-size: 1vw;
+}
+
+
+
