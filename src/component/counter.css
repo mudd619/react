@@ -1,0 +1,8 @@
+.grid{
+    border-radius: 5px;
+    padding: 1%;
+    background-color: rgb(138, 126, 126);
+    margin: 2% 30% 1% 30%;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+}
