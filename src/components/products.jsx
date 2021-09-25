@@ -8,7 +8,7 @@ function Products(){
     const [loading,setLoading] = useState(true);
 
     function GetIt(){
-        axios.get("http://localhost:3001/products")
+        axios.get("https://reqres.in/api/users")
         .then((res)=>{
             return res.data;
         })
@@ -26,9 +26,9 @@ function Products(){
     return (<>
        {loading ? <div>...loading</div> : 
         <ul>
-            {data.map((el)=>{
+            {data.data.map((el)=>{
                 return <li key={el.id}>
-                    <Link to={`/products/${el.id}`}><h1>{el.name}</h1></Link>
+                    <Link to={`/users/${el.id}`}><h1>{el.first_name}</h1></Link>
                 </li>
             })}
         </ul>
