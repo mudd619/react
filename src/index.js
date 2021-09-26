@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from "react-router-dom";
-import Auth from './components/context/authContext';
+import Auth from './pages/context/authContext';
 
 
 ReactDOM.render(

@@ -1,4 +1,4 @@
-import {useParams,Redirect} from "react-router-dom";
+import {useParams,Redirect,useHistory} from "react-router-dom";
 import axios from "axios";
 import { useState,useEffect, useContext } from "react";
 import { AuthContext } from "./context/authContext";
@@ -7,6 +7,7 @@ import { AuthContext } from "./context/authContext";
 
 
 function Details(){
+    const history = useHistory()
     const cancelTokenSource = axios.CancelToken.source();
     const {id} = useParams();
     const {auth} = useContext(AuthContext)
@@ -29,21 +30,21 @@ function Details(){
         return (()=>{
             cancelTokenSource.cancel()
         })
-    },[])
+    },[id])
 
     const handleBack =()=>{
-        console.log("a")
-        return <Redirect to="/users"></Redirect>
+        history.replace("/dashboard")
     }
 
     if(!auth){
         return <Redirect to="/login"></Redirect>
     }
+
     
     // return (<div key={id}>Users {id}</div>)
     return <div>
         {loading? <div>...loading</div> : 
-        <div><img src={prod.avatar}/><h1>User - {prod.first_name}  {prod.last_name}</h1><br/><button onClick={handleBack}>Back</button></div>}
+        <div><img src={prod.avatar}/><h1>User - {prod.first_name}  {prod.last_name}</h1><br/><button style={{width:"8%",padding:"0.3%"}} onClick={handleBack}>Back</button></div>}
     </div>
 }
 
